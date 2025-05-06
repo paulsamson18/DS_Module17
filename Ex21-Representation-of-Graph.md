@@ -1,25 +1,25 @@
 # Ex21 Representation of Graph
-## DATE:02\05\2025
+## DATE:
 ## AIM:
 To write a C program to display the adjacency matrix of the given graph by supplying the edges and the number of vertices.
 
 ## Algorithm
-1. Start the program.
-2. Read the value of V (number of vertices).
-3. Declare an adjacency matrix adjMatrix[V][V].
-4. Initialize the matrix to 0 using the init function. 
-5. Calculate the maximum number of edges me as n * (n - 1) / 2.
-6. For each edge, read e1 and e2, add the edge to the adjacency matrix, and stop if e1 == -1 && e2 == -1.
-7. Print the adjacency matrix.
-8. End the program.
+1.Start<br/>
+2.Read the value of V (number of vertices).<br/>
+3.Declare an adjacency matrix adjMatrix[V][V].<br/>
+4.Initialize the matrix to 0 using the init function.<br/>
+5.Calculate the maximum number of edges me as n * (n - 1) / 2.<br/>
+6.For each edge, read e1 and e2, add the edge to the adjacency matrix, and stop if e1 == -1 && e2 == -1.<br/>
+7.Print the adjacency matrix.<br/>
+8.End<br/>
 
 ## Program:
 ```
 
 Program to display the adjacency matrix of the given graph.
 
-Developed by: Sanjai S
-RegisterNumber:  212223230186
+Developed by: PAUL SAMSON S
+RegisterNumber:  212222230104
 
  
 /*#include<stdio.h> 
@@ -55,10 +55,9 @@ printAdjMatrix(adjMatrix);
 }
 
 ```
-
 ## Output:
+![image](https://github.com/user-attachments/assets/9cafac08-59cc-412e-8e7d-b5b77ff8023a)
 
-![image](https://github.com/user-attachments/assets/23be6457-de3b-4fb7-ab7e-cef887936f74)
 
 
 ## Result:
